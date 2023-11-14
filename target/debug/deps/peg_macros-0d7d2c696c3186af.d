@@ -1,0 +1,10 @@
+/Users/vadympolishchuk/uni3/rust/kma_rustlang_course_Vadym_Polischuk/parser/target/debug/deps/libpeg_macros-0d7d2c696c3186af.dylib: /Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/lib.rs /Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/analysis.rs /Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/ast.rs /Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/grammar.rs /Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/tokens.rs /Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/translate.rs
+
+/Users/vadympolishchuk/uni3/rust/kma_rustlang_course_Vadym_Polischuk/parser/target/debug/deps/peg_macros-0d7d2c696c3186af.d: /Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/lib.rs /Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/analysis.rs /Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/ast.rs /Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/grammar.rs /Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/tokens.rs /Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/translate.rs
+
+/Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/lib.rs:
+/Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/analysis.rs:
+/Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/ast.rs:
+/Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/grammar.rs:
+/Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/tokens.rs:
+/Users/vadympolishchuk/.cargo/registry/src/index.crates.io-6f17d22bba15001f/peg-macros-0.8.2/translate.rs:
