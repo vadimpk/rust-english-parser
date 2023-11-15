@@ -1,6 +1,6 @@
 [package]
 name = "english-language-parser"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["vadym-polishchuk"]
 edition = "2021"
 description = "Simple parser of English sentences created for KMA Rust course."
