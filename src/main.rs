@@ -1,4 +1,4 @@
-use clap::{arg, command, ArgAction, Command};
+use clap::{arg, command, Command};
 use english_language_parser::*;
 use std::fs;
 use std::path::PathBuf;
@@ -20,7 +20,10 @@ fn main() -> Result<(), AppError> {
             arg!(-f --file <FILE> "Specify the file to parse")
                 .value_parser(clap::value_parser!(PathBuf)),
         )
-        .arg(arg!(-s --save "If set, saves the output to 'output.txt'").action(ArgAction::SetTrue))
+        .arg(
+            arg!(-o --output <FILE> "If set, saves the output to specified file")
+            .value_parser(clap::value_parser!(PathBuf)),
+        )
         .subcommand(Command::new("credits").about("Credits information"));
 
     let matches = app.clone().get_matches();
@@ -29,13 +32,13 @@ fn main() -> Result<(), AppError> {
         let content = fs::read_to_string(file_path).map_err(AppError::IOError)?;
         let parsed_text = parse_text(&content)?;
 
-        if *matches.get_one::<bool>("save").unwrap_or(&false) {
+        if let Some(output_file_path) = matches.get_one::<PathBuf>("output") {
             let formatted_text = parsed_text
                 .iter()
                 .map(|sentence| format!("{:?}", sentence))
                 .collect::<Vec<_>>()
                 .join("\n");
-            fs::write("output.txt", formatted_text).map_err(AppError::IOError)?;
+            fs::write(output_file_path, formatted_text).map_err(AppError::IOError)?;
         } else {
             for sentence in parsed_text {
                 println!("{:?}", sentence);
