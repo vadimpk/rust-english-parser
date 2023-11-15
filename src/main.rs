@@ -22,7 +22,7 @@ fn main() -> Result<(), AppError> {
         )
         .arg(
             arg!(-o --output <FILE> "If set, saves the output to specified file")
-            .value_parser(clap::value_parser!(PathBuf)),
+                .value_parser(clap::value_parser!(PathBuf)),
         )
         .subcommand(Command::new("credits").about("Credits information"));
 
